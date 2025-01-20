@@ -1,0 +1,77 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+}
+/* colors */
+.orange{
+    color: rgba(254, 163, 1, 1);
+}
+
+.sky-blue{
+    color: rgba(1, 172, 253, 1);
+}
+
+.aqua{
+    color: rgba(5, 212, 223, 1);
+}
+
+.blue-violet{
+    color: rgba(93, 88, 239, 1);
+}
+
+/* header section styles */
+.header{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* navbar section styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.menu-item1, 
+.menu-item2, 
+.menu-item3, 
+.menu-item4{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-1{
+    background-color: rgba(254, 163, 1, 1);
+}
+.btn-1 > a{
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+}
