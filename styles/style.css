@@ -115,6 +115,9 @@
     text-decoration: none;
     color: white;
 }
+.hero-img{
+    width: 100%;
+}
 /* responsive styles for small device */
 @media screen and (max-width: 576px) {
     /* navbar styles */
