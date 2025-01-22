@@ -1,4 +1,4 @@
-/* font style */
+/* font styles */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-font {
@@ -251,7 +251,7 @@
     margin: 80px auto 0 auto;
 }
 
-/* single card styles */
+/* card styles */
 .story1-card {
     background-color: white;
     border-radius: 16px;
@@ -455,6 +455,7 @@
     margin-left: -40px;
     margin-top: 32px;
 }
+
 /* responsive styles for small device */
 @media screen and (max-width: 576px) {
 
@@ -511,7 +512,7 @@
     }
     .stories-card-container{
         grid-template-columns: repeat(2, 1fr);
-        margin: 20px 10px 0 10px;
+        margin: 20px 15px 0 15px;
     }
     .story-title{
         padding: 23px 0 37px 20px;
