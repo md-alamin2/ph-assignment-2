@@ -328,7 +328,7 @@
     border-radius: 47px;
     position: relative;
     top: -18px;
-    left: 30px;
+    left: 10%;
 }
 
 .story3-date {
@@ -340,7 +340,7 @@
     border-radius: 47px;
     position: relative;
     top: -18px;
-    left: 30px;
+    left: 10%;
     
 }
 
@@ -353,7 +353,7 @@
     border-radius: 47px;
     position: relative;
     top: -18px;
-    left: 30px;
+    left: 10%;
 }
 
 .story5-date {
@@ -365,7 +365,7 @@
     border-radius: 47px;
     position: relative;
     top: -18px;
-    left: 30px;
+    left: 10%;
 }
 .btn-3-container{
     text-align: center;
@@ -510,7 +510,16 @@
     }
     .stories-card-container{
         grid-template-columns: repeat(2, 1fr);
-        margin: 20px 20px 0 20px;
+        margin: 20px 10px 0 10px;
+    }
+    .story-title{
+        padding: 23px 0 37px 20px;
+    }
+    .story2-date, 
+    .story3-date, 
+    .story4-date, 
+    .story5-date{
+        left: 5%;
     }
 
     /* footer section style */
